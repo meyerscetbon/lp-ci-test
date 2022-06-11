@@ -1,1 +1,1 @@
-# lp_ci_test
+# lp-ci-test
