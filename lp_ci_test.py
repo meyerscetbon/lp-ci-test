@@ -125,7 +125,7 @@ def compute_stat_ci(
 
 
 def test_asymptotic_ci(
-    X, Y, Z, rank, rank_GP, J=5, p_norm=2, mu=1e-5, alpha=0.01, optimizer=True
+    X, Y, Z, rank, rank_GP=200, J=5, p_norm=2, mu=1e-10, alpha=0.05, optimizer=True
 ):
     test_locs, gwidthX_2, gwidthY_2, gwidthZ_2 = initial_T_gwidth2(
         X, Y, Z, n_test_locs=J
@@ -154,7 +154,7 @@ def test_asymptotic_ci(
             "alpha": alpha,
             "pvalue": p_value,
             "H0": p_value > alpha,
-            "test": S,
+            "test statistic": S,
         }
 
         return results
