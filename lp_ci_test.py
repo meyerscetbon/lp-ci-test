@@ -48,7 +48,7 @@ def compute_stat_ci(
     n, dZ = np.shape(Z)
     J, d_tot = np.shape(test_locs)
 
-    rank_GP = min(rank_GP,200)
+    rank_GP = min(rank_GP, 200)
     rank = min(n, rank)
     ind_r = np.random.choice(n, size=rank, replace=False)
 
