@@ -2,7 +2,7 @@
 Code of the [paper](https://arxiv.org/pdf/2110.14868.pdf) by Meyer Scetbon, Laurent Meunier and Yaniv Romano.
 
 ## A Simple Test for Conditional Independence
-In this work, we propose a new computationally efficient test for conditional independence based on the Lp distance between two kernel-based representatives of well suited distributions. By evaluating the difference of these two representatives at a finite set of locations, we derive a finite dimensional approximation of the Lp metric and obtain its asymptotic distribution under the null hypothesis of conditional independence which is simply the standard normal distribution. We then design a simply asymptotic test from it and show that our new test outperforms state-of-the-art methods both in term of statistical power and type-I error even in the high dimensional setting.
+In this work, we propose a new computationally efficient test for conditional independence based on the Lp distance between two kernel-based representatives of well suited distributions. By evaluating the difference of these two representatives at a finite set of locations, we derive a finite dimensional approximation of the Lp metric and obtain its asymptotic distribution under the null hypothesis of conditional independence which is simply the standard normal distribution. We then design an asymptotic statisical test from it and show that it outperforms state-of-the-art methods both in term of statistical power and type-I error even in the high dimensional setting.
 
 
 ## On the Implementation of the Test
